@@ -1,6 +1,6 @@
 const { Buffer } = require('buffer') // Serve para trabalhar com tipo binário
-const ID = 'ds4fs64fsd4f4sd4fs'
+const message = 'Bom dia'
 
-const hash = Buffer.from(ID, 'utf8').toString('hex')
+const hash = Buffer.from(message, 'utf8').toString('hex')
 
 console.log(hash)
