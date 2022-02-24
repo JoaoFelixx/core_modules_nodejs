@@ -9,7 +9,7 @@ const createHash = (password) => {
 
 const hash = await promisify(createHash)('123456'); 
 
-var txt = 'Congratulate %s on his %dth birthday!';
-var result = format(txt, 'Linus', 6); 
+const txt = 'Congratulate %s on his %dth birthday!';
+const result = format(txt, 'Linus', 6); 
 
 console.log(result);

@@ -8,6 +8,7 @@ const currentOS = {
 	totalMem:   os.totalmem(),
 	freeMem:    os.freemem(),
 	info: os.userInfo()
+
 }
 
-console.table(current); 
+console.table(currentOS); 
