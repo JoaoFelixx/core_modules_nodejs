@@ -1,3 +1,5 @@
+// Módulo que trabalha com eventos no node js
+
 const events = require('events');
 
 const eventEmmiter = new events.EventEmmiter();

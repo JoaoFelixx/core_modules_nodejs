@@ -1,4 +1,6 @@
-const assert = require('assert'); // Módulo trablha com asserção no node
+// Módulo trablha com asserção no node
+
+const assert = require('assert'); 
 
 const amountFromClientOne = '120';
 const amountFromClientTwo = '100';

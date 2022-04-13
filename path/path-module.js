@@ -1,5 +1,6 @@
-const path = require('path'); // trabalha com caminhos /etc/etc/etc
+// trabalha com caminhos /etc/etc/etc
 
+const path = require('path'); 
 
 const filePath = path.join(__dirname, '/folder/subfolder', 'text.txt');
 console.log(filePath)

@@ -1,8 +1,10 @@
+// Módulo que trabalha com criptografia 
+
 const { 
   createHmac,
   createHash,
   randomUUID,
-} = require('crypto'); // Módulo que trabalha com criptografia 
+} = require('crypto'); 
 
 // Gera senhas 
 const password = '123456';

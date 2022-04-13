@@ -1,4 +1,6 @@
-const url = require('url'); // O módulo de URL fornece uma maneira de analisar a string de URL.
+// O módulo de URL fornece uma maneira de analisar a string de URL
+
+const url = require('url'); 
 const http = require('http');
 
 

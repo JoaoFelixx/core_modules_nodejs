@@ -1,4 +1,6 @@
-const { promisify, format } = require('util') // O módulo Util fornece acesso a algumas funções de utilitários.
+// O módulo Util fornece acesso a algumas funções de utilitários.
+
+const { promisify, format } = require('util') 
 const { createHash } = require('crypto');
 
 const createHash = (password) => {

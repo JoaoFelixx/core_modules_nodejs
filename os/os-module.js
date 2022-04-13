@@ -1,4 +1,6 @@
-const os = require('os'); // Módulo que trabalha com informações do sistema operacioanal
+// Módulo que trabalha com informações do sistema operacioanal
+
+const os = require('os'); 
 
 // method returns the system uptime in seconds
 
@@ -8,7 +10,6 @@ const currentOS = {
 	totalMem:   os.totalmem(),
 	freeMem:    os.freemem(),
 	info: os.userInfo()
-
 }
 
 console.table(currentOS); 

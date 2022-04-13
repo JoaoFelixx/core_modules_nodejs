@@ -1,4 +1,6 @@
-const zlib = require('zlib'); // Módulo para compactar e descompactar arquivos
+// Módulo para compactar e descompactar arquivos
+
+const zlib = require('zlib'); 
 const fs = require('fs');
 
 const gzip = zlib.createGzip();

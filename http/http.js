@@ -1,4 +1,6 @@
-const http = require('http'); // Cria servidor web http
+ // Cria servidor web http
+ 
+const http = require('http');
 const DEFAULT_HEADER = { 'Content-Type': 'application/json' };
 
 const server = http.createServer((request, response) => {
